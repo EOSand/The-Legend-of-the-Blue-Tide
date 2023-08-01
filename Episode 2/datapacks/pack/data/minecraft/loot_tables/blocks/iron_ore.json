@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+		"rolls": {
+      "max": 3,
+      "min": 1
+    },
+		"entries": [
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:raw_iron",
+				"weight": 10,
+				"functions": [{
+					"function": "minecraft:set_name",
+					"name": {
+						"text": "Raw Iron",
+						"italic": false
+					}
+				}]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:raw_iron",
+				"weight": 5,
+				"functions": [{
+					"function": "minecraft:set_name",
+					"name": {
+						"text": "Raw Tin",
+						"italic": false
+					}
+				}]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:raw_copper",
+				"weight": 5,
+				"functions": [{
+					"function": "minecraft:set_name",
+					"name": {
+						"text": "Raw Copper",
+						"italic": false
+					}
+				}]
+			}
+		],
+		"conditions": [
+			{
+			  "condition": "minecraft:survives_explosion"
+			}
+		]
+    }
+	]
+}

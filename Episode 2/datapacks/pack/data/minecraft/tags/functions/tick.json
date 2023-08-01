@@ -1,0 +1,17 @@
+{
+    "values": [
+		"main:particles/load_particles",
+		"main:keycards/keycards",
+		"main:general/time_delay",
+		"main:general/map_viewer",
+		"main:mines/fluid_tanks",
+		"main:mines/coke_furnace",
+		"main:mines/blast_furnace",
+		"main:limbo_mission/damage",
+		"main:general/item_scores",
+		"main:sewer/auto_sewers",
+    	"main:general/monorail_stations",
+    	"main:general/spawnpoint_anchor",
+		"main:general/garden"
+    ]
+}

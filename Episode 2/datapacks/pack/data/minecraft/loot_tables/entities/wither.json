@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star"
+          "functions": [{
+  					"function": "minecraft:set_name",
+  					"name": {
+  						"text": "Limbo Star",
+  						"italic": false,
+              "color": "dark_gray"
+  					}
+  				}]
+        }
+      ]
+    }
+  ]
+}

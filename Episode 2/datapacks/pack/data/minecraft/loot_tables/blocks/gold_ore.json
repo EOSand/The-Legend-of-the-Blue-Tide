@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+    "rolls": {
+        "max": 3,
+        "min": 1
+    },
+		"entries": [
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:raw_gold",
+				"weight": 2,
+				"functions": [{
+					"function": "minecraft:set_name",
+					"name": {
+						"text": "Raw Gold",
+						"italic": false
+					}
+				}]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:raw_gold",
+				"weight": 1,
+				"functions": [{
+					"function": "minecraft:set_name",
+					"name": {
+						"text": "Raw Silver",
+						"italic": false
+					}
+				}]
+			},
+			{
+				"type": "minecraft:item",
+				"name": "minecraft:raw_gold",
+				"weight": 1,
+				"functions": [{
+					"function": "minecraft:set_name",
+					"name": {
+						"text": "Raw Platinum",
+						"italic": false
+					}
+				}]
+			}
+		],
+		"conditions": [
+			{
+			  "condition": "minecraft:survives_explosion"
+			}
+		]
+    }
+	]
+}
